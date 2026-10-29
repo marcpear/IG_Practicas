@@ -45,7 +45,7 @@ Este proyecto es una aplicación web interactiva en 3D que simula un Sistema Sol
 
 ![Vista Nave](Resultados/Resultado_vistaNave.gif)
 
-[Video Completo](https://www.youtube.com/watch?v=o6Ixxhf7a7I)
+[Video Completo](https://www.youtube.com/watch?v=inhlmakNn5M)
 
 ## Uso de IA
 
