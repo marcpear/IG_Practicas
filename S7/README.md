@@ -2,6 +2,12 @@
 
 Marcos Peña Armario [Github](https://github.com/marcpear)
 
+## Proyecto
+
+[Repositorio de codeSandBox](https://codesandbox.io/p/sandbox/t2c7w5)
+
+[Enlace para la ejecución](https://t2c7w5.csb.app/)
+
 
 ## Descripción del proyecto
 
@@ -46,6 +52,12 @@ Este proyecto es una aplicación web interactiva en 3D que simula un Sistema Sol
 En este proyecto se ha empleado la IA de forma de apoyo para la depuración y solución de errores de ejecución, limpieza y optimización del código, mejorar estética en la ejecución del proyecto y recopilación de información didáctica.
 
 Toda implementación e integración al código final ha sido supervisada y adaptada.
+
+**Problemas solucionados con la IA**
+
+Con problemas no me refiero a errores mínimos como por ejemplo errores de sintaxis.
+
+En un principio hubieron problemas con las funciones eventos del ratón ya que no había especificado en un principio que solamente detectase el click o el arrastre de este cuando fuese en el canva, además, tuve problemas con la iluminación en los planetas que contaban con atmósferas haciendo que las sombras de las dichas se viesen muy pixeladas, por último, hubieron altercados con las texturas ya que no eran posibles agregarlas al codesandbox así que las añadí al github y las referencié en el código principal mediante un enlace.
 
 ## Referencias
 
