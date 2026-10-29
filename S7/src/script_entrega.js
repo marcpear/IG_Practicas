@@ -5,20 +5,20 @@ import { OrbitControls } from "three/examples/jsm/controls/OrbitControls.js";
 import datosDidacticos from "./datos_planetas.json";
 
 const URLS = {
-    sol: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Resultados/sun.jpg",
-    estrellas: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Resultados/stars.jpg",
-    mercurio: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Resultados/mercury.jpg",
-    venusSuperficie: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Resultados/venus_surface.jpg",
-    venusAtmosfera: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Resultados/venus_atmosphere.jpg",
-    tierra: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Resultados/earth.jpg",
-    nubes: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Resultados/earth_clouds.jpg",
-    luna: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Resultados/moon.jpg",
-    marte: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Resultados/mars.jpg",
-    jupiter: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Resultados/jupiter.jpg",
-    saturno: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Resultados/saturn.jpg",
-    anilloSaturno: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Resultados/saturn_ring.jpg",
-    urano: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Resultados/uranus.jpg",
-    neptuno: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Resultados/neptune.jpg"
+    sol: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Texturas/sun.jpg",
+    estrellas: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Texturas/stars.jpg",
+    mercurio: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Texturas/mercury.jpg",
+    venusSuperficie: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Texturas/venus_surface.jpg",
+    venusAtmosfera: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Texturas/venus_atmosphere.jpg",
+    tierra: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Texturas/earth.jpg",
+    nubes: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Texturas/earth_clouds.jpg",
+    luna: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Texturas/moon.jpg",
+    marte: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Texturas/mars.jpg",
+    jupiter: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Texturas/jupiter.jpg",
+    saturno: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Texturas/saturn.jpg",
+    anilloSaturno: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Texturas/saturn_ring.jpg",
+    urano: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Texturas/uranus.jpg",
+    neptuno: "https://raw.githubusercontent.com/marcpear/IG_Practicas/main/S7/Texturas/neptune.jpg"
 };
 
 const panelInfo = document.createElement('div');
