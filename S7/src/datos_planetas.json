@@ -1,0 +1,12 @@
+{
+    "Sol": "<b>El Sol</b><br><br>Estrella de tipo-G en el centro de nuestro sistema. Contiene el 99.8% de toda la masa del sistema solar.",
+    "Mercurio": "<b>Mercurio</b><br><br>El planeta más pequeño y cercano al Sol. No tiene atmósfera para retener el calor, por lo que sus temperaturas varían de 430°C de día a -180°C de noche.",
+    "Venus": "<b>Venus</b><br><br>Gira en dirección opuesta a la mayoría de planetas. Su densa atmósfera atrapa el calor en un efecto invernadero desbocado, siendo el planeta más caliente.",
+    "Tierra": "<b>Tierra</b><br><br>Nuestro hogar. Es el único planeta conocido que alberga vida y el único con agua líquida en su superficie.",
+    "Luna": "<b>La Luna</b><br><br>El único satélite natural de la Tierra. Su gravedad influye fuertemente en las mareas de nuestros océanos.",
+    "Marte": "<b>Marte</b><br><br>Conocido como el planeta rojo debido al óxido de hierro en su superficie. Posee el volcán más grande del sistema solar: el Monte Olimpo.",
+    "Júpiter": "<b>Júpiter</b><br><br>El gigante gaseoso más grande. Su Gran Mancha Roja es una tormenta masiva que ha estado activa durante cientos de años.",
+    "Saturno": "<b>Saturno</b><br><br>Famoso por su extenso y brillante sistema de anillos compuestos por fragmentos de hielo y roca.",
+    "Urano": "<b>Urano</b><br><br>Un gigante de hielo que rota de lado, con un eje de inclinación de casi 90 grados, probablemente debido a una colisión colosal en el pasado.",
+    "Neptuno": "<b>Neptuno</b><br><br>El planeta más alejado del Sol. Es un mundo oscuro, frío y azotado por vientos supersónicos."
+}
