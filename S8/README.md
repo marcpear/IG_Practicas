@@ -27,6 +27,22 @@ Este proyecto es una aplicación web interactiva en 3D que representa el relieve
 
 Los niveles y alturas se muestran como una visualización didáctica. El proyecto no calcula una inundación física ni constituye una predicción científica.
 
+## Relieve, texturas y datos
+
+### Relieve de Gran Canaria
+
+El relieve procede del modelo Copernicus GLO-30 (COP30), descargado como teselas GeoTIFF desde [GlobalDEM Portal](https://globaldemportal.github.io/). Se utilizaron las teselas `Copernicus_DSM_10_N27_00_W016_00_DEM.tif` y `Copernicus_DSM_10_N28_00_W016_00_DEM.tif`, que cubren la zona de Gran Canaria.
+
+Las teselas se combinaron en QGIS con la herramienta de combinación. Después se mostró el resultado en escala de grises y se exportó como `heightmap.png`, usando la extensión de la isla. Three.js lee los valores de gris de esta imagen para elevar los vértices del terreno.
+
+### Texturas de color
+
+- **`mapa_color2.png`:** textura de la isla completa, preparada y exportada desde QGIS para la vista general. Aporta el color visual del terreno; el relieve lo determina `heightmap.png`.
+- **`mapa_calle.png`:** recorte detallado de la zona urbana exportado desde QGIS. Se usa al cambiar a la vista de edificios. Su extensión corresponde a oeste `-15.44362`, este `-15.41905`, sur `28.13138` y norte `28.14508`.
+- **`edificios.osm`:** datos de OpenStreetMap con las huellas de los edificios. El programa las convierte en formas extruidas y las coloca sobre el terreno.
+
+CodeSandbox los carga desde GitHub mediante sus enlaces directos.
+
 ## Controles
 
 - **Modo de control:** selecciona la subida manual o automática.
