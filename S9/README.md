@@ -2,9 +2,9 @@
 
 **Contenido:**
 
-`shader_tiny.frag`: Versión minificada de **375 bytes**,
-`shader_comentado.frag`: Igual que el archivo tiny pero comentada
-`captura_shader.png`: Captura en algún instante del shader
+- `shader_tiny.frag`: Versión minificada de **375 bytes**,
+- `shader_comentado.frag`: Igual que el archivo tiny pero comentada
+- `captura_shader.png`: Captura en algún instante del shader
 
 Para poder usarlo se puede simplemente pegar o cargar el archivo en el [Editor de Book of shaders](https://editor.thebookofshaders.com/)
 
