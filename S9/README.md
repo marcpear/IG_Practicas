@@ -2,7 +2,7 @@
 
 **Contenido:**
 
-- `shader_tiny.frag`: Versión minificada de **375 bytes**,
+- `shader_tiny.frag`: Versión minificada de **374 bytes**,
 - `shader_comentado.frag`: Igual que el archivo tiny pero comentada
 - `captura_shader.png`: Captura en algún instante del shader
 
@@ -23,15 +23,39 @@ Además, para los colores me inspiré en el trabajo de Íñigo Quilez, ya que el
 
 **Rejilla.** Divido la pantalla en 9×9 celdas cuadradas con floor y fract. Cada celda tiene su propio centro en (0,0).
 
+```
+  vec2 q = gl_FragCoord.xy / u_resolution.y * 9.;
+  vec2 i = floor(q);
+  vec2 p = fract(q) - .5;
+
+```
+
 **Aleatoriedad por celda.** A cada celda le asigno un número aleatorio entre 0 y 1 con la función random del Book of Shaders. Ese número no cambia con el tiempo y lo uso para que cada celda sea distinta.
 
-**Rotación dinámica.** Cada cuadrado gira con una velocidad y un sentido que dependen de su número aleatorio, así unos giran a un lado y otros al contrario.
+```
+float t = u_time;
+float r = fract(sin(dot(i, vec2(13, 80))) * 5000.);
+float l = length(q - 4.5);              
+```
 
 **Forma y onda radial.** Dibujo un cuadrado en cada celda y su tamaño crece y decrece con un sin que depende del tiempo y de la distancia al centro. Así se forma una onda que se propaga hacia fuera en anillos.
 
+```
+float d = max(abs(p.x), abs(p.y)) * (1. + .5 * sin(t * 2. - l));
+```
+
 **Color.** Uso una paleta con cos (Iñigo Quilez) cuyo color cambia según el número aleatorio de la celda, el tiempo y la distancia al centro.
 
+```
+vec3 col = .5 + .5 * cos(6.3 * (r * .3 + vec3(0, 0.3, 0.4) + t * .05 + l * .1));
+```
+
 **Máscara.** Con smoothstep recorto cada cuadrado y dejo el fondo negro. Como los dos umbrales son iguales (.3,.3), el borde queda abrupto.
+
+```
+float m = 1. - smoothstep(.3, .3, d);
+gl_FragColor = vec4(col, 1.) * m;
+``` 
 
 ### Optimización de tamaño
 
