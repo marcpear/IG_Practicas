@@ -1,8 +1,8 @@
-# Shader: «Ondas de cuadrados»
+# Shader: Ondas de cuadrados
 
 **Contenido:**
 
-`shader_tiny.frag`: Versión minificada de **434 bytes**,
+`shader_tiny.frag`: Versión minificada de **375 bytes**,
 `shader_comentado.frag`: Igual que el archivo tiny pero comentada
 `captura_shader.png`: Captura en algún instante del shader
 
