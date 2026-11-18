@@ -42,9 +42,13 @@ Además, para los colores me inspiré en el trabajo de Íñigo Quilez, ya que el
 
 El archivo ocupa un total de 374 bytes.
 
+## Uso de IA
+
+En este caso la IA se utilizó para recabar y consultar información dentro de [The Book of Shaders](https://thebookofshaders.com) y como guía para redactar este README.
+
 ## Fuentes
 
-- (Patricio Gonzalez Vivo y Jen Lowe, *The Book of Shaders*: cap. 6, 7, 8, 9 y 10 entre otros.)[https://thebookofshaders.com]
-- (Iñigo Quilez, «Palettes» (paleta coseno))[https://iquilezles.org/articles/palettes/]
-- (Guion de la práctica Shaders, GitHub otsedom)[https://github.com/otsedom/otsedom.github.io/tree/main/IG/S9]
+- [Patricio Gonzalez Vivo y Jen Lowe, *The Book of Shaders*: cap. 6, 7, 8, 9 y 10 entre otros.](https://thebookofshaders.com)
+- [Iñigo Quilez, «Palettes» (paleta coseno)](https://iquilezles.org/articles/palettes/)
+- [Guion de la práctica Shaders, GitHub otsedom](https://github.com/otsedom/otsedom.github.io/tree/main/IG/S9)
 - Victor Vasarely, como inspiración visual.
